@@ -36,6 +36,8 @@ $(document).on("pagecreate", "#page1", function () {
 
 //});
 
+
+
 $(document).on("click", ".collapseExpand", function () {
     var collapseAll = this.id == "btnCollapse";
     if (collapseAll) {
